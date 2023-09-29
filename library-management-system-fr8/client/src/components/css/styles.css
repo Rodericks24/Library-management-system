@@ -1,0 +1,120 @@
+body {
+  background:#922c40;
+}
+.App {
+  font-family: sans-serif;
+}
+#bank-img {
+  width: 80%;
+}
+#card-text {
+  color: dodgerblue;
+}
+#form-card {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #9BACA5;
+}
+#alldata-card {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #922c40;
+  color: white;
+}
+.alldata-list {
+  list-style-type: none;
+  font-weight: bolder;
+}
+.form-div h1 {
+  text-align: center;
+}
+#add-btn {
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}
+#create:hover + .hide {
+  display: block;
+  color: red;
+}
+
+#bank-img{
+  width: "75%";
+  height: "55vh";
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
+
+.nav-links:hover {
+  font-weight: bold;
+}
+
+/*loading css*/
+@keyframes loadingAnimation {
+  0% {
+    transform: scale(1);
+    color: red;
+  }
+  50% {
+    transform: scale(1.2);
+    color: green;
+  }
+  100% {
+    transform: scale(1);
+    color: blue;
+  }
+}
+
+.loading-text {
+  animation: loadingAnimation 1s infinite;
+}
+/*table css*/
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+}
+
+
+
+/* Default styles for desktop */
+.carousel {
+  width: 60%;
+  height: 50vh;
+}
+
+.carousel-item img {
+  height: auto;
+}
+
+
+
+
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .carousel {
+    width: 90%;
+    height: 30vh;
+    margin-top: 30%;
+  }
+
+  .carousel-item img {
+    height: 30vh;
+  }
+  #all{
+    width: 300%;
+    text-align: center;
+    margin-left: 18px;
+  }
+  .d-block{
+    height: 20vh;
+  }
+}
+
